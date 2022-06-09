@@ -43,7 +43,7 @@ The directory tree look like as follows:
 	- Dataset-Dartmouth
 	  - Balanced_Dartmouth_Multi+TSNE.ipynb
 
-- All Other Model Scripts (7 Models in each file)
+- All Other Model Scripts (8 State-of-the-art models in each file)
 	- Dataset-ICIAR
 	  - Balanced_ICIAR_Binary+TSNE.ipynb
 	  - Balanced_ICIAR_Multi+TSNE.ipynb
