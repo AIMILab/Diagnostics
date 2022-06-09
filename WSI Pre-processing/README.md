@@ -35,19 +35,19 @@ Example:
 
 1) For Training WSIs
 
-	source = DATA_DIRECTORY/Dartmouth/Train/WSI/SVS
+	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/Train/WSI/SVS
 	
-	sourceXML = DATA_DIRECTORY/Dartmouth/Train/WSI/XML
+	DATA_DIRECTORY_XML = DATA_DIRECTORY/Dartmouth/Train/WSI/XML
 
 2) For Testing WSIs
 
-	source = DATA_DIRECTORY/Dartmouth/Test/WSI/SVS
+	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/Test/WSI/SVS
 	
-	sourceXML = DATA_DIRECTORY/Dartmouth/Test/WSI/XML
+	DATA_DIRECTORY_XML = DATA_DIRECTORY/Dartmouth/Test/WSI/XML
 
 3) For Saving Patched Images
 
-	save_dir = RESULTS_DIRECTORY_ICIAR
+	RESULTS_DIRECTORY = RESULTS_DIRECTORY_ICIAR
 
 - **With XML**
 
@@ -59,21 +59,21 @@ Example:
 
 ***B. Dartmouth Dataset:*** (https://bmirds.github.io/LungCancer)
 
-python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY --sourceXML DATA_DIRECTORY_XML --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
+python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
 
 Example:
 
 1) For All WSIs
 
-	source = DATA_DIRECTORY/Dartmouth/WSI/SVS/Solid/
-	source = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
-	source = DATA_DIRECTORY/Dartmouth/WSI/SVS/Lepidic/
-	source = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
-	source = DATA_DIRECTORY/Dartmouth/WSI/SVS/Papillary/
+	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Solid/
+	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
+	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Lepidic/
+	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
+	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Papillary/
 
 2) For Saving Patched Images
 
-	save_dir = RESULTS_DIRECTORY_Dartmouth
+	RESULTS_DIRECTORY = RESULTS_DIRECTORY_Dartmouth
 
 - **Without XML**
 
