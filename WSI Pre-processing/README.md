@@ -79,9 +79,9 @@ python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY --save_dir RESUL
 
  	python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI/SVS --save_dir RESULTS_DIRECTORY_ICIAR --patch --patch_size 256 --seg														  
 
-- **Following 31 WSIs were used for pre-processing and to generate image patches for each WSI and was categorized into five classes.**
-	1) Acinar (DHMC_15, DHMC_27, DHMC_38, DHMC_83, DHMC_110, DHMC_121, DHMC_130, DHMC_133, DHMC_138)
-	2) Lepidic (DHMC_18, DHMC_35, DHMC_54, DHMC_84, DHMC_109)
-	3) Micropapillary (DHMC_33, DHMC_51, DHMC_55, DHMC_137, DHMC_139)
-	4) Papillary (DHMC_24, DHMC_53, DHMC_98, DHMC_135) 
-	5) Solid (DHMC_17, DHMC_39, DHMC_43, DHMC_45, DHMC_47, DHMC_49, DHMC_67, DHMC_128)
+**Following 31 WSIs were used for pre-processing and to generate image patches for each WSI and was categorized into five classes.**
+1) Acinar (DHMC_15, DHMC_27, DHMC_38, DHMC_83, DHMC_110, DHMC_121, DHMC_130, DHMC_133, DHMC_138)
+2) Lepidic (DHMC_18, DHMC_35, DHMC_54, DHMC_84, DHMC_109)
+3) Micropapillary (DHMC_33, DHMC_51, DHMC_55, DHMC_137, DHMC_139)
+4) Papillary (DHMC_24, DHMC_53, DHMC_98, DHMC_135) 
+5) Solid (DHMC_17, DHMC_39, DHMC_43, DHMC_45, DHMC_47, DHMC_49, DHMC_67, DHMC_128)
