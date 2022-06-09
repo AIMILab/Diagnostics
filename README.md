@@ -3,7 +3,9 @@
 The repository of our following paper **An Unsupervised Learning based on Multiple Descriptors For WSIs Diagnosis** (_Diagnostics_): [Paper](http://empty.com)
 
 1. ***Datasets***
- 
+
+We used the following two public WSI datasets as reference standards for training and evaluating our model.
+
 - [ICIAR2018](https://iciar2018-challenge.grand-challenge.org/Dataset)
 - [Dartmouth](https://bmirds.github.io/LungCancer)
 
