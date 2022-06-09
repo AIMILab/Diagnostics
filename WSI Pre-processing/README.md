@@ -27,7 +27,7 @@ The user-defined set of parameters depends on the dataset, as reported in the sc
 
 # Commands To Run Script
 
-***A. ICIAR Dataset:*** (https://iciar2018-challenge.grand-challenge.org/Dataset)
+***A. ICIAR2018 Dataset:*** (https://iciar2018-challenge.grand-challenge.org/Dataset)
 
 python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY --sourceXML DATA_DIRECTORY_XML --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
 
@@ -35,27 +35,27 @@ python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY --sourceXML DATA_DIR
 
 **1)** For Training WSIs
 
-	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/Train/WSI/SVS
+	DATA_DIRECTORY = ICIAR2018/Train/SVS
 	
-	DATA_DIRECTORY_XML = DATA_DIRECTORY/Dartmouth/Train/WSI/XML
+	DATA_DIRECTORY_XML = ICIAR2018/Train/XML
 
 **2)** For Testing WSIs
 
-	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/Test/WSI/SVS
+	DATA_DIRECTORY = ICIAR2018/Test/SVS
 	
-	DATA_DIRECTORY_XML = DATA_DIRECTORY/Dartmouth/Test/WSI/XML
+	DATA_DIRECTORY_XML = ICIAR2018/Test/XML
 
 **3)** For Saving Patched Images
 
-	RESULTS_DIRECTORY = RESULTS_DIRECTORY_ICIAR
+	RESULTS_DIRECTORY = RESULTS_ICIAR2018
 
 - **With XML**
 
-	python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI/SVS --sourceXML DATA_DIRECTORY/ICIAR_2018/Train/WSI/XML --save_dir RESULTS_DIRECTORY_ICIAR --patch --patch_size 256 --seg --stitch
+	python Create_WSIs_Patches_ICIAR.py --source ICIAR2018/Train/SVS --sourceXML ICIAR2018/Train/XML --save_dir RESULTS_ICIAR2018 --patch --patch_size 256 --seg --stitch
 
 - **Without XML**
 
-	python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI/SVS --save_dir RESULTS_DIRECTORY_ICIAR --patch --patch_size 256 --seg --stitch
+	python Create_WSIs_Patches_ICIAR.py --source ICIAR2018/Train/SVS --save_dir RESULTS_ICIAR2018 --patch --patch_size 256 --seg --stitch
 
 ***B. Dartmouth Dataset:*** (https://bmirds.github.io/LungCancer)
 
@@ -65,19 +65,19 @@ python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY --save_dir RESUL
 
 **1)** For All WSIs
 
-	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Solid/
-	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
-	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Lepidic/
-	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
-	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Papillary/
+	DATA_DIRECTORY = Dartmouth/SVS/Solid
+	DATA_DIRECTORY = Dartmouth/SVS/Acinar
+	DATA_DIRECTORY = Dartmouth/SVS/Lepidic
+	DATA_DIRECTORY = Dartmouth/SVS/Acinar
+	DATA_DIRECTORY = Dartmouth/SVS/Papillary
 
 **2)** For Saving Patched Images
 
-	RESULTS_DIRECTORY = RESULTS_DIRECTORY_Dartmouth
+	RESULTS_DIRECTORY = RESULTS_Dartmouth
 
 - **Without XML**
 
- 	python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI/SVS --save_dir RESULTS_DIRECTORY_ICIAR --patch --patch_size 256 --seg														  
+ 	python Create_WSIs_Patches_Dartmouth.py --source Dartmouth/SVS/Solid --save_dir RESULTS_Dartmouth --patch --patch_size 256 --seg														  
 
 **Following 31 WSIs were used for pre-processing and to generate image patches and was categorized into five classes.**
 1) Acinar (DHMC_15, DHMC_27, DHMC_38, DHMC_83, DHMC_110, DHMC_121, DHMC_130, DHMC_133, DHMC_138)
