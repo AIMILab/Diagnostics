@@ -31,21 +31,21 @@ The user-defined set of parameters depends on the dataset, as reported in the sc
 
 python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY --sourceXML DATA_DIRECTORY_XML --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
 
-Example:
+**Example:**
 
-1) For Training WSIs
+**1)** For Training WSIs
 
 	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/Train/WSI/SVS
 	
 	DATA_DIRECTORY_XML = DATA_DIRECTORY/Dartmouth/Train/WSI/XML
 
-2) For Testing WSIs
+**2)** For Testing WSIs
 
 	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/Test/WSI/SVS
 	
 	DATA_DIRECTORY_XML = DATA_DIRECTORY/Dartmouth/Test/WSI/XML
 
-3) For Saving Patched Images
+**3)** For Saving Patched Images
 
 	RESULTS_DIRECTORY = RESULTS_DIRECTORY_ICIAR
 
@@ -61,9 +61,9 @@ Example:
 
 python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
 
-Example:
+**Example:**
 
-1) For All WSIs
+**1)** For All WSIs
 
 	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Solid/
 	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
@@ -71,7 +71,7 @@ Example:
 	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Acinar/
 	DATA_DIRECTORY = DATA_DIRECTORY/Dartmouth/WSI/SVS/Papillary/
 
-2) For Saving Patched Images
+**2)** For Saving Patched Images
 
 	RESULTS_DIRECTORY = RESULTS_DIRECTORY_Dartmouth
 
