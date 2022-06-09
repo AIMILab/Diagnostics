@@ -6,7 +6,7 @@ The user-defined set of parameters depends on the dataset, as reported in the sc
 1) Level (seg_level): Downsample level on which to segment the WSI.
 2) Threshold (sthresh):  Positive integer, using a higher threshold leads to less foreground and more background detection.
 3) Median filter Threshold (mthresh):  Must be a positive and odd integer.
-4) Otsu's Method (use_otsu): default: True(otsu) or False(Binary thresholding)
+4) Otsu's Method (use_otsu): True(Otsu's) or False(Binary thresholding)
 5) Morphological Operation (close): Positive integer or -1.
 
 **B. List of contour filtering parameters**
@@ -23,7 +23,7 @@ The user-defined set of parameters depends on the dataset, as reported in the sc
 
 **D. List of visualization parameters**
 1) Level (vis_level): Downsample level to visualize the segmentation results.
-2) Visualize line (line_thickness): to visualize the segmentation results, Positive integer, in terms of the number of pixels occupied by the drawn line at level N.
+2) Visualize line (line_thickness): Positive integer, in terms of the number of pixels occupied by the drawn line at level N to display the segmentated results.
 
 
 
