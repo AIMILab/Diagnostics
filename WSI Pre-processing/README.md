@@ -1,4 +1,4 @@
-# Pre-processing Information:
+# Pre-processing Information
 
 The user-defined set of parameters depends on the dataset, as reported in the scripts (Create_WSIs_Patches_ICIAR.py and Create_WSIs_Patches_Dartmouth.py) for segmentation and patching from WSIs.
     
