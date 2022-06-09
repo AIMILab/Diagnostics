@@ -27,6 +27,8 @@ The user-defined set of parameters depends on the dataset, as reported in the sc
 
 
 
+
+
 ***A. ICIAR Dataset:***
 
 python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY --sourceXML DATA_DIRECTORY_XML --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
@@ -52,6 +54,8 @@ python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI
 
 - **Without XML**
 python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI/SVS --save_dir RESULTS_DIRECTORY_ICIAR --patch --patch_size 256 --seg --stitch
+
+
 
 
 
