@@ -1,4 +1,4 @@
-# Commands To Run Script:
+# Pre-processing Information:
 
 The user-defined set of parameters depends on the dataset, as reported in the scripts (Create_WSIs_Patches_ICIAR.py and Create_WSIs_Patches_Dartmouth.py) for segmentation and patching from WSIs.
     
@@ -25,11 +25,9 @@ The user-defined set of parameters depends on the dataset, as reported in the sc
 1) Level (vis_level): Downsample level to visualize the segmentation results.
 2) Visualize line (line_thickness): Positive integer, in terms of the number of pixels occupied by the drawn line at level N to display the segmentated results.
 
+# Commands To Run Script
 
-
-
-
-***A. ICIAR Dataset:***
+***A. ICIAR Dataset:*** (https://iciar2018-challenge.grand-challenge.org/Dataset)
 
 python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY --sourceXML DATA_DIRECTORY_XML --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
 
@@ -55,11 +53,7 @@ python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI
 - **Without XML**
 python Create_WSIs_Patches_ICIAR.py --source DATA_DIRECTORY/ICIAR_2018/Train/WSI/SVS --save_dir RESULTS_DIRECTORY_ICIAR --patch --patch_size 256 --seg --stitch
 
-
-
-
-
-***B. Dartmouth Dataset:***
+***B. Dartmouth Dataset:*** (https://bmirds.github.io/LungCancer)
 
 python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY --sourceXML DATA_DIRECTORY_XML --save_dir RESULTS_DIRECTORY --patch --patch_size 256 --seg --stitch
 
@@ -86,6 +80,3 @@ python Create_WSIs_Patches_Dartmouth.py --source DATA_DIRECTORY/ICIAR_2018/Train
 	3) Micropapillary (DHMC_33, DHMC_51, DHMC_55, DHMC_137, DHMC_139)
 	4) Papillary (DHMC_24, DHMC_53, DHMC_98, DHMC_135) 
 	5) Solid (DHMC_17, DHMC_39, DHMC_43, DHMC_45, DHMC_47, DHMC_49, DHMC_67, DHMC_128)
-
-
-
