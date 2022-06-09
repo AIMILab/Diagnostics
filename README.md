@@ -17,6 +17,7 @@ Setup python environment 3.6.x ++ and install necessary packages and dependencie
  - Keras
  - Scikit-learn
  - Pandas
+ - OpenSlide
  - Scipy
  - Six
 
