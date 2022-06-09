@@ -1,6 +1,6 @@
 # All Models Information
 
-For the experimental comparison, we used the following eight different well-known classification models.
+We used the following eight different well-known classification models for the experimental comparison.
 
 1) ResNet-50
 2) Inception-V3
