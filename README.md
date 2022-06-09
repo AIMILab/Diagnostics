@@ -18,6 +18,7 @@ Setup python environment 3.6.x ++ and install necessary packages and dependencie
  - Scikit-learn
  - Pandas
  - OpenSlide
+ - OpenCV
  - Scipy
  - Six
 
