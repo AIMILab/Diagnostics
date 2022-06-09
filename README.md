@@ -82,31 +82,31 @@ To run a script from scratch you can use the following docker files.
 **A. Dataset-ICIAR**
 
 <!-- -*Our Model* ![Dataset-2](/images/Confusion_Matrix_D1.png) -->
--*Our Model* <img src="/images/Confusion_Matrix_D1.png" width="600" height="500">
+-*Our Model* <img src="/Images/Confusion_Matrix_D1.png" width="600" height="500">
 
 **B. Dataset-Dartmouth**
 
 <!-- -*Our Model* ![Dataset-2](/images/Confusion_Matrix_D2.png) -->
--*Our Model* <img src="/images/Confusion_Matrix_D2.png" width="600" height="500">
+-*Our Model* <img src="/Images/Confusion_Matrix_D2.png" width="600" height="500">
 
 **AUC(ROC) Curves**
 
 **A. Dataset-ICIAR**
 
 <!-- -*Our Model* ![Dataset-1](/images/ROC_D1.png) -->
--*Our Model* <img src="/images/ROC_D1.png" width="600" height="300">
+-*Our Model* <img src="/Images/ROC_D1.png" width="600" height="300">
 
 **B. Dataset-Dartmouth**
 
 <!-- -*Our Model* ![Dataset-1](/images/ROC_D2.png) -->
--*Our Model* <img src="/images/ROC_D2.png" width="600" height="300">
+-*Our Model* <img src="/Images/ROC_D2.png" width="600" height="300">
 
 # Citation:
 
 If you find this code useful in your research, please consider citing:
 
 @article{Sheikh2022,
-  title={An Extended Unsupervised Deep Learning Model based on Multiple Descriptors For WSIs Diagnosis},
+  title={An Unsupervised Learning based on Multiple Descriptors For WSIs Diagnosis},
   author={Taimoor Shakeel Sheikh, Jee Yeon Kim, Jaesool Shim, Migyung Cho},
   journal={arXiv preprint arXiv:Diagnostics},
   year={2022}
