@@ -1,6 +1,6 @@
 # Paper Information
 
-The repository of our following paper **An Unsupervised Learning based on Multiple Descriptors For WSIs Diagnosis** (_Diagnostics_): [Paper](http://empty.com)
+The repository of our following paper **Unsupervised Learning Based on Multiple Descriptors for WSIs Diagnosis** (_Diagnostics_): [Paper](https://www.mdpi.com/2075-4418/12/6/1480)
 
 1. ***Datasets***
 
@@ -109,9 +109,15 @@ To run a script from scratch you can use the following docker files.
 
 If you find this code useful in your research, please consider citing:
 
-@article{Sheikh2022,
-  title={An Unsupervised Learning based on Multiple Descriptors For WSIs Diagnosis},
-  author={Taimoor Shakeel Sheikh, Jee Yeon Kim, Jaesool Shim, Migyung Cho},
-  journal={arXiv preprint arXiv:Diagnostics},
-  year={2022}
+@article{diagnostics12061480,
+AUTHOR = {Sheikh, Taimoor Shakeel and Kim, Jee-Yeon and Shim, Jaesool and Cho, Migyung},
+TITLE = {Unsupervised Learning Based on Multiple Descriptors for WSIs Diagnosis},
+JOURNAL = {Diagnostics},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {6},
+ARTICLE-NUMBER = {1480},
+URL = {https://www.mdpi.com/2075-4418/12/6/1480},
+ISSN = {2075-4418},
+DOI = {10.3390/diagnostics12061480}
 }
